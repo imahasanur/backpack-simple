@@ -10,12 +10,22 @@ section{
   width:100%;
   margin-top:1em;
 }
+h3{
+  font-weight:900;
+  color:#363958;
+}
+h4{
+  color:#A9A9A9;
+}
+p{
+  color:#2F4F4F;
+}
 .logo{
   height:30px;
   width:300px;
 }
 .common-view{
-    width:80%;
+    width:70%;
 }
 .info-view{
   width:100px;
@@ -53,4 +63,9 @@ section{
 }
 footer{
  background:white;
+}
+@media screen and (max-width: 760px) {
+  .info-text{
+    text-align:center;
+  }
 }
